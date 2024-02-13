@@ -91,10 +91,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&mt LS(LGUI) TAB  &kp Q  &kp W  &kp E     &kp R      &kp T        &kp Y     &kp U        &kp I      &kp O    &kp P     &caps_word
-&kp LCTRL         &kp A  &kp S  &kp D     &kp F      &kp G        &kp H     &kp J        &kp K      &kp L    &kp SEMI  &kp PIPE
-&kp LSHFT         &kp Z  &cut   &copy     &paste     &kp B        &kp N     &kp M        &kp COMMA  &kp DOT  &kp FSLH  &kp RSHIFT
-                                &kp LGUI  &lt 1 ESC  &kp SPACE    &kp BSPC  &lt 2 ENTER  &kp RALT
+&mt LS(LGUI) TAB  &kp Q  &kp W  &kp E         &kp R      &kp T        &kp Y     &kp U        &kp I         &kp O    &kp P     &caps_word
+&kp LCTRL         &kp A  &kp S  &kp D         &kp F      &kp G        &kp H     &kp J        &kp K         &kp L    &kp SEMI  &kp PIPE
+&kp LSHFT         &kp Z  &cut   &copy         &paste     &kp B        &kp N     &kp M        &kp COMMA     &kp DOT  &kp FSLH  &kp RSHIFT
+                                &kp LEFT_ALT  &lt 1 ESC  &kp SPACE    &kp BSPC  &lt 2 ENTER  &kp LEFT_GUI
             >;
         };
 
@@ -109,7 +109,7 @@
 &trans         &dt1           &dt2          &dt3          &dt4        &kp N5      &kp N6          &kp N7        &kp N8        &kp N9        &kp N0         &trans
 &kp C_BRI_DEC  &kp C_BRI_INC  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_MUTE  &kp HOME    &kp LEFT        &kp DOWN      &kp UP_ARROW  &kp RIGHT     &kp PAGE_DOWN  &kp PAGE_UP
 &mkp MB5       &mkp MB4       &mkp MB3      &mkp MB2      &mkp MB1    &kp END     &bt BT_CLR_ALL  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bootloader    &sys_reset
-                                            &trans        &trans      &trans      &trans          &trans &trans
+                                            &trans        &trans      &trans      &trans          &trans        &trans
             >;
         };
 
